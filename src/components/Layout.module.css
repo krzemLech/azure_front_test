@@ -1,0 +1,18 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: stretch;
+  border: 1px solid red;
+  position: relative;
+}
+
+.VersionBadge {
+  position: absolute;
+  top: 72px;
+  right: 12px;
+  font-size: 0.9rem;
+  color: #888;
+  user-select: none;
+}
